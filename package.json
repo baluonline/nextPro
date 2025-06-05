@@ -11,11 +11,12 @@
     "autoprefixer": "10.4.20",
     "bcrypt": "^5.1.1",
     "clsx": "^2.1.1",
+    "globals": "^16.2.0",
     "next": "latest",
     "next-auth": "5.0.0-beta.25",
     "postcss": "8.5.1",
     "postgres": "^3.4.6",
-    "react": "latest",
+    "react": "~19",
     "react-dom": "latest",
     "tailwindcss": "3.4.17",
     "typescript": "5.7.3",
@@ -23,10 +24,14 @@
     "zod": "^3.25.17"
   },
   "devDependencies": {
+    "@eslint/js": "^9.28.0",
     "@types/bcrypt": "^5.0.2",
     "@types/node": "22.10.7",
     "@types/react": "19.0.7",
-    "@types/react-dom": "19.0.3"
+    "@types/react-dom": "19.0.3",
+    "eslint": "^9.28.0",
+    "eslint-plugin-react": "^7.37.5",
+    "typescript-eslint": "^8.33.1"
   },
   "pnpm": {
     "onlyBuiltDependencies": [
