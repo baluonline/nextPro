@@ -6,10 +6,9 @@ import { lusitana } from "./ui/fonts";
 import Image from "next/image";
 
 export default function Page() {
-  console.log("styles", styles);
   return (
     <main className="flex min-h-screen flex-col p-6">
-      <div className={styles} />
+      <div  />
       <p
         className={`${lusitana.className} text-xl text-gray-800 md:text-3xl md:leading-normal`}
       >
